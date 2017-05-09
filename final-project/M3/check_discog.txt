@@ -1,0 +1,103 @@
+ tist_id |        name         |      realname
+---------+---------------------+---------------------
+ 1280491 | SAHRA INDIO         | SAHRA INDIO
+  168150 | Seibold             | Steven Seibold
+  729320 | Smiley (10)         | Lynette Michaels
+ 1076782 | 119                 | 119
+ 1282865 | Bryan Madey         | Bryan Madey
+  945016 | Harrison Jacob      | Harrison Jacob
+  363557 | Tony Cha Cha        | Dimitrie Siliakus
+  394319 | Peter Baumeister    | Peter Baumeister
+ 1300490 | Guillaume De Chassy | Guillaume De Chassy
+  549883 | Helen & Terry       | Helen & Terry
+(10 rows)
+
+
+ genre_id |         name
+----------+----------------------
+        3 | Rock
+        2 | Jazz
+       10 | Reggae
+       11 | Folk World & Country
+        9 | Pop
+        6 | Stage & Screen
+       13 | Blues
+        1 | Electronic
+       14 | Children's
+        7 | Non-Music
+(10 rows)
+
+
+ label_id |         name
+----------+-----------------------
+   115023 | Daisy Chain Records
+   872005 | Marvel (8)
+   856524 | The Duece Productions
+  1018399 | Loyalty Is A Must
+   325595 | IGL
+   202716 | Sweet Thunder
+   704485 | La Mazakuata Records
+   934846 | Daily Music (2)
+    83650 | -P-¦-+-ü-ü-¦-¦
+   647535 | DDV
+(10 rows)
+
+
+ release_id | artist_id
+------------+-----------
+    2484660 |     11202
+    7224152 |     15824
+    3620499 |    113673
+    3326079 |   1828498
+    6533313 |   3176893
+    4535794 |    585419
+    6380995 |    188576
+    2443813 |    349125
+    3819808 |   2890423
+     248365 |     89579
+(10 rows)
+
+
+ release_id | format_type
+------------+-------------
+    8554057 | Vinyl
+    8891086 | Vinyl
+     670742 | CD
+     368600 | CD
+    7554774 | Cassette
+    8620888 | CD
+    4032185 | Vinyl
+    7534048 | Vinyl
+    1515750 | CD
+    7472453 | CD
+(10 rows)
+
+
+ release_id | label_id
+------------+----------
+    5483540 |   112921
+    3206563 |    26126
+    1560300 |  1130698
+    2561690 |    43884
+    5966704 |      681
+    2283844 |    71085
+    7984895 |   280985
+     350479 |    23693
+    2759563 |  1005424
+    2412961 |     5410
+(10 rows)
+
+
+ release_id |                   title                    | num_tracks |  released  |   country
+------------+--------------------------------------------+------------+------------+-------------
+     438680 | No Name For The Baby                       |         22 | 1993       | Germany
+     494598 | We Got The Funk                            |          6 | 3/19/2002  | US
+    1227534 | 18 Top Hits International Extra Highlights |         19 | 1995       | Germany
+     784852 | (And Don't Forget Me)                      |          4 | 1998-09-00 | US
+      57627 | No Promises                                |          2 | 1999       | Netherlands
+    1298695 | In A Persian Market                        |          2 |            | Germany
+     611883 | A Night Of Unholy Black Metal              |         17 | 2000       |
+     466364 | Self Esteem                                |          3 | 1994       | Germany
+     479661 | Too Low For Zero                           |         10 | 1983       | Netherlands
+    1412858 | 11 Trax                                    |         11 | 6/12/2008  | Brazil
+(10 rows)

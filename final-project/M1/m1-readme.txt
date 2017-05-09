@@ -1,0 +1,1 @@
+1) FATAL ERROR fixed by setting pgclientencoding to UTF8

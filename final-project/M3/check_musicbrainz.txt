@@ -1,0 +1,251 @@
+
+ id |     name     | parent | child_order |                                                                                                                       description                                                                                                                       |                 gid
+----+--------------+--------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------
+  4 | Municipality |        |           4 | Municipality is used for small administrative divisions which, for urban municipalities, often contain a single city and a few surrounding villages. Rural municipalities typically group several villages together.                                    | 17246454-5ac4-36a1-b81a-4753eb2dab20
+  7 | County       |        |           7 | County is used for smaller administrative divisions of a country which are not the main administrative divisions but are also not municipalities, e.g. counties in the USA. These are not considered when displaying the parent areas for a given area. | bcecec27-8bdb-3e00-8254-d948dda502fa
+  2 | Subdivision  |        |           2 | Subdivision is used for the main administrative divisions of a country, e.g. California, Ontario, Okinawa. These are considered when displaying the parent areas for a given area.                                                                      | fd3d44c5-80a1-3842-9745-2c4972d35afa
+  3 | City         |        |           3 | City is used for settlements of any size, including towns and villages.                                                                                                                                                                                 | 6fd8f29a-3d0a-32fc-980d-ea697b69da78
+  1 | Country      |        |           1 | Country is used for areas included (or previously included) in ISO 3166-1, e.g. United States.                                                                                                                                                          | 06dd0ae4-8c74-30bb-b43d-95dcedf961de
+  6 | Island       |        |           6 | Island is used for islands and atolls which don't form subdivisions of their own, e.g. Skye. These are not considered when displaying the parent areas for a given area.                                                                                | 3f8e7b66-058b-369b-9834-ffa5fcba5641
+  5 | District     |        |           5 | District is used for a division of a large city, e.g. Queens.                                                                                                                                                                                           | 84039871-5e47-38ca-a66a-45e512c8290f
+(7 rows)
+
+
+
+ id |    name     | parent | child_order | description |                 gid
+----+-------------+--------+-------------+-------------+--------------------------------------
+  3 | Search hint |        |           0 |             | 7090dd35-e32e-3422-8a48-224821c2468b
+  2 | Formal name |        |           0 |             | b280c712-f676-342e-a8f2-e5c5fe0159b4
+  1 | Area name   |        |           0 |             | 0b5b3497-d5d9-34e7-a61b-9a6c18aa7b29
+(3 rows)
+
+
+  id   | area  |          name          | locale | edits_pending |         last_updated          | type |       sort_name        | begin_date_year | begin_date_month | begin_date_day | end_date_year | end_date_month | end_date_day | primary_for_locale | ended
+-------+-------+------------------------+--------+---------------+-------------------------------+------+------------------------+-----------------+------------------+----------------+---------------+----------------+--------------+--------------------+-------
+ 35542 | 78735 | Blankenberg            | en     |             0 | 2013-11-21 15:14:26.775548+00 |    1 | Blankenberg            |                 |                  |                |               |                |              | t                  | f
+ 35582 | 70351 | Blekendorf             | en     |             0 | 2013-11-21 15:20:29.077129+00 |    1 | Blekendorf             |                 |                  |                |               |                |              | t                  | f
+  5764 |   713 | Corrientesin maakunta  | fi     |             0 | 2013-06-05 06:21:04.372476+00 |    1 | Corrientesin maakunta  |                 |                  |                |               |                |              | t                  | f
+ 18828 |  7410 | San Marcos             | en     |             0 | 2013-11-02 08:02:40.632855+00 |    1 | San Marcos             |                 |                  |                |               |                |              | t                  | f
+ 52381 | 76732 | Reichenbach            | de     |             0 | 2013-11-23 21:52:05.098441+00 |    1 | Reichenbach            |                 |                  |                |               |                |              | t                  | f
+ 60520 | 71481 | pâçpâ¬pâÆpé+pâ¦             | ja     |             0 | 2013-11-26 07:26:54.518283+00 |    1 | pâçpâ¬pâÆpé+pâ¦             |                 |                  |                |               |                |              | t                  | f
+  2676 |  2134 | Municipality of ++etale | en     |             0 | 2013-05-27 17:29:55.16726+00  |    1 | Municipality of ++etale |                 |                  |                |               |                |              | t                  | f
+ 27947 | 28084 | -ª-+-+-+-Å-+-ü-¦               | ru     |             0 | 2013-11-04 04:38:46.991505+00 |    1 | -ª-+-+-+-Å-+-ü-¦               |                 |                  |                |               |                |              | t                  | f
+ 11528 |  3586 | Anse Etoile            | nl     |             0 | 2013-06-05 10:30:37.491485+00 |    1 | Anse Etoile            |                 |                  |                |               |                |              | t                  | f
+  2167 |    89 | Guatemala              | nl     |             0 | 2013-05-27 13:45:36.275965+00 |      | Guatemala              |                 |                  |                |               |                |              | t                  | f
+(10 rows)
+
+
+   id    |                 gid                  |        name         |      sort_name       | begin_date_year | begin_date_month | begin_date_day | end_date_year | end_date_month | end_date_day | type | area | gender |                comment                 | edits_pending |         last_updated          | ended | begin_area | end_area
+---------+--------------------------------------+---------------------+----------------------+-----------------+------------------+----------------+---------------+----------------+--------------+------+------+--------+----------------------------------------+---------------+-------------------------------+-------+------------+----------
+  155438 | 46854bcc-b5e8-4990-899d-b09dea6285b3 | 14 88               | 14 88                |                 |                  |                |               |                |              |      |      |        |                                        |             0 |                               | f     |            |
+  353171 | bd342dd7-48f9-4728-827b-2a07b430433a | Ras Mc Bean         | Mc Bean, Ras         |                 |                  |                |               |                |              |    1 |      |      1 | reggae singer                          |             0 | 2016-05-24 23:24:56.149608+00 | f     |         92 |
+  982644 | f1315f88-3b81-47d1-9865-a5612e45b685 | Hellacopter City    | Hellacopter City     |                 |                  |                |               |                |              |      |      |        |                                        |             0 | 2013-03-01 01:59:58.903544+00 | f     |            |
+  951144 | ec3857a0-67d9-4e99-b0a0-b4b054ac95f8 | Constance Shacklock | Shacklock, Constance |            1913 |                  |                |          1999 |                |              |    1 |  221 |      2 |                                        |             0 | 2015-10-28 07:02:49.895112+00 | t     |       3968 |     1178
+  207945 | fb5af69d-abfe-462c-b08b-dc5e3bcdb8b7 | Cydonia             | Cydonia              |                 |                  |                |               |                |              |    1 |   13 |      1 | trance, alias for Vladimir Tittl       |             0 | 2013-06-04 01:25:48.003382+00 | f     |            |
+ 1309206 | 67ebe58a-b2dc-4010-8d0c-4c8445b1f6ff | Eddie Siblik        | Siblik, Eddie        |                 |                  |                |               |                |              |    1 |      |      1 |                                        |             0 | 2015-12-21 14:57:21.045244+00 | f     |            |
+  542525 | 3fcde9d7-7a3a-431b-9b8f-50997b0f07a8 | The Faderflippers   | Faderflippers, The   |                 |                  |                |               |                |              |      |      |        |                                        |             0 |                               | f     |            |
+  671382 | 9c403d7a-78fc-403b-adc7-879e6f7e3f36 | Sorehead            | Sorehead             |                 |                  |                |               |                |              |    2 | 7715 |        | hip hop influenced dark electronic act |             0 | 2013-10-28 19:40:14.224674+00 | f     |            |
+ 1196177 | 781c5a3a-737c-4896-b8ad-6beefa5b49ae | Speakz              | Speakz               |                 |                  |                |               |                |              |      |      |        |                                        |             0 | 2015-01-29 02:09:47.4414+00   | f     |            |
+  313896 | 2bf39525-4d23-4885-849e-7944575a0da0 | Tovies              | Tovies               |                 |                  |                |               |                |              |      |      |        |                                        |             0 |                               | f     |            |
+(10 rows)
+
+
+ id |    name     | parent | child_order | description |                 gid
+----+-------------+--------+-------------+-------------+--------------------------------------
+  1 | Artist name |        |           0 |             | 894afba6-2816-3c24-8072-eadb66bd04bc
+  3 | Search hint |        |           0 |             | 1937e404-b981-3cb7-8151-4c86ebfc8d8e
+  2 | Legal name  |        |           0 |             | d4dcd0c0-b341-3612-a332-c0ce797b25cf
+(3 rows)
+
+
+   id   | artist  |           name            | locale | edits_pending |         last_updated          | type |         sort_name         | begin_date_year | begin_date_month | begin_date_day | end_date_year | end_date_month | end_date_day | primary_for_locale | ended
+--------+---------+---------------------------+--------+---------------+-------------------------------+------+---------------------------+-----------------+------------------+----------------+---------------+----------------+--------------+--------------------+-------
+ 125711 |   82276 | Urban Assault (Tahoe)     |        |             0 | 2012-10-16 12:05:57.421649+00 |      | Urban Assault (Tahoe)     |                 |                  |                |               |                |              | f                  | f
+  12713 |   46285 | The Legendary Mama Sana   |        |             0 | 2012-05-15 18:57:13.252186+00 |      | The Legendary Mama Sana   |                 |                  |                |               |                |              | f                  | f
+ 103872 |  782353 | Dmitrii Vekoff            |        |             0 | 2012-05-15 18:57:13.252186+00 |      | Dmitrii Vekoff            |                 |                  |                |               |                |              | f                  | f
+  69155 |  476834 | Bohuslav Matousek         |        |             0 | 2012-05-15 18:57:13.252186+00 |      | Bohuslav Matousek         |                 |                  |                |               |                |              | f                  | f
+  99585 |  747294 | Monday Michiru Sipiaguine |        |             0 | 2012-05-15 18:57:13.252186+00 |      | Monday Michiru Sipiaguine |                 |                  |                |               |                |              | f                  | f
+ 129939 |   42849 | Charles Jeremy Jankel     | en_GB  |             0 | 2013-02-20 22:00:46.14201+00  |    2 | Jankel, Charles Jeremy    |                 |                  |                |               |                |              | f                  | f
+ 136403 | 1030476 | Yoshihiro Sugawara        |        |             0 | 2013-08-08 13:00:48.922426+00 |      | Sugawara, Yoshihiro       |                 |                  |                |               |                |              | f                  | f
+  74595 |  540518 | Tomoki Kanda              |        |             0 | 2012-05-15 18:57:13.252186+00 |      | Tomoki Kanda              |                 |                  |                |               |                |              | f                  | f
+ 143386 | 1077646 | Mazell                    |        |             0 | 2014-01-21 14:00:17.408743+00 |      | Mazell                    |                 |                  |                |               |                |              | f                  | f
+ 176167 | 1349798 | Magic Between Us          |        |             0 | 2016-03-30 14:58:02.772276+00 |    1 | Magic Between Us          |            2009 |                1 |              1 |               |                |              | f                  | f
+(10 rows)
+
+
+   id    |                   name                    | artist_count | ref_count |            created
+---------+-------------------------------------------+--------------+-----------+-------------------------------
+  847076 | Fozzie, Statler & Waldorf                 |            2 |         2 | 2011-08-09 04:40:45.022201+00
+ 1230463 | Ravenous Nemesis                          |            1 |        10 | 2013-10-25 09:22:44.221198+00
+  175242 | Quick 50                                  |            1 |        12 | 2011-05-16 16:32:11.963929+00
+ 1489833 | New Cool Collective feat. Ali Boulo Santo |            2 |         3 | 2015-06-09 11:49:30.443735+00
+ 1621355 | Nina Corti & Flamenco Inspiration         |            1 |        26 | 2016-03-05 08:36:57.087222+00
+ 1310777 | Zen Zila                                  |            1 |        67 | 2014-05-06 09:45:03.197376+00
+  174745 | DJ Illegal                                |            1 |         2 | 2011-05-16 16:32:11.963929+00
+  558953 | -í-¦-é-¦-+-¦-Ü-+-+-æ-+                               |            1 |       103 | 2011-05-16 16:32:11.963929+00
+  687419 | Keystone Cops                             |            1 |        93 | 2011-05-16 16:32:11.963929+00
+ 1737675 | Jemima Farey                              |            1 |        12 | 2016-10-22 18:51:00.562815+00
+(10 rows)
+
+
+ artist_credit | position | artist  |       name        | join_phrase
+---------------+----------+---------+-------------------+-------------
+       1485368 |        1 |  952291 | Jonn Hart         |  feat.
+       1001927 |        0 |  233976 | Alexis & Fido     |  feat.
+        841208 |        2 |  817081 | Mo Potts          | ,
+       1517952 |        3 |  842606 | Jeff Ball         |
+       1956719 |        1 | 1444257 | Marga Gonzales    |
+       1762813 |        0 |  894874 | Vega              |  feat.
+       1202280 |        0 | 1032404 | Goat Thron        |
+       1063691 |        0 |  408864 | Teddybears        |  feat.
+        473297 |        0 |  473297 | The Blackout Crew |
+       1736813 |        0 |  658075 | KNLO              |  feat.
+(10 rows)
+
+
+ id |   name    | parent | child_order | description |                 gid
+----+-----------+--------+-------------+-------------+--------------------------------------
+  3 | Other     |        |          99 |             | ac897045-5043-3294-969b-187360e45d86
+  6 | Choir     |      2 |           0 |             | 6124967d-7e3a-3eba-b642-c9a2ffb44d94
+  5 | Orchestra |      2 |           0 |             | a0b36c92-3eb1-3839-a4f9-4799823f54a5
+  1 | Person    |        |           1 |             | b6e035f4-3ce9-331c-97df-83397230b0df
+  4 | Character |        |           3 |             | 5c1375b0-f18d-3db7-a164-a49d7a63773f
+  2 | Group     |        |           2 |             | e431f5f6-b5d2-343d-8b36-72607fffb74b
+(6 rows)
+
+
+ id |  name  | parent | child_order | description |                 gid
+----+--------+--------+-------------+-------------+--------------------------------------
+  3 | Other  |        |           3 |             | 081c0bf5-da60-37b0-95f8-2207a3f7f9d6
+  1 | Male   |        |           1 |             | 36d3d30a-839d-3eda-8cb3-29be4384e4a9
+  2 | Female |        |           2 |             | 93452b5a-a947-30c8-934f-6a4056b151c2
+(3 rows)
+
+
+  id  | iso_code_2t | iso_code_2b | iso_code_1 |   name    | frequency | iso_code_3
+------+-------------+-------------+------------+-----------+-----------+------------
+  895 |             |             |            | Molmo One |         0 | aun
+ 7580 |             |             |            | Muzi      |         0 | ymz
+ 1777 |             |             |            | Nanti     |         0 | cox
+ 6596 |             |             |            | Tup+¡      |         0 | tpw
+ 4561 |             |             |            | Aiklep    |         0 | mwg
+ 1416 |             |             |            | Bahonsuai |         0 | bsu
+ 3009 |             |             |            | Yelmek    |         0 | jel
+ 1891 |             |             |            | Gwahatike |         0 | dah
+ 4115 |             |             |            | Mayogo    |         0 | mdm
+ 6249 |             |             |            | Shixing   |         0 | sxg
+(10 rows)
+
+
+   id    |                 gid                  |             name             | artist_credit | release_group | status | packaging | language | script |    barcode    | comment | edits_pending | quality |         last_updated
+---------+--------------------------------------+------------------------------+---------------+---------------+--------+-----------+----------+--------+---------------+---------+---------------+---------+-------------------------------
+  977026 | 3f3c33ed-fe66-4a01-95f7-a3796ec468b7 | 25 Baroque Favorites         |             1 |        468271 |        |           |      120 |     28 |               |         |             0 |      -1 | 2014-11-18 12:02:15.631112+00
+  209571 | 3c058ac6-7b93-4996-af7d-6ba2b2afb6df | Nera                         |        402159 |        563830 |      1 |           |      120 |     28 | 7350020545382 |         |             0 |      -1 | 2012-08-21 13:30:15.981115+00
+  891872 | de72c01e-a812-485d-98b3-17ecbed648be | www.burgersofbeef.com        |        122783 |        159719 |        |           |          |     28 |               |         |             0 |      -1 | 2012-01-03 17:20:25.269387+00
+  109884 | 4cbf841c-b7ea-42bd-a5b5-76ee742947ab | Gun Govind Gaiyo Nahi        |        335205 |        480969 |      1 |           |      330 |     28 |               |         |             0 |      -1 |
+  527992 | e0dbd9b7-a171-46c9-ba59-291b12b689d4 | Trance Anthems 2             |             1 |        829216 |      1 |           |      120 |     28 | 5026535301622 |         |             0 |      -1 | 2011-08-11 13:00:07.622306+00
+ 1060333 | 21e3f24e-ad2f-4d9f-9562-9419e870d356 | Greatest Hits                |         64482 |       1083401 |      3 |         3 |      120 |     28 | 4607147861141 |         |             0 |      -1 | 2014-01-17 12:00:13.509006+00
+ 1782690 | 8dab8842-592b-4f1c-9e5e-22470dffa94c | Lycanthrophy                 |        621097 |       1664380 |      1 |         1 |      120 |     28 |               |         |             0 |      -1 | 2016-06-01 02:44:36.463119+00
+ 1264020 | 5f76d3da-4441-484c-8c91-a3db3fbffc6e | Faust                        |       1135781 |       1247973 |      1 |         1 |      120 |     28 |               |         |             0 |      -1 | 2013-03-12 20:00:14.748856+00
+ 1444951 | 5b015b6a-75ce-480a-906d-1f1a2dd1f3c3 | The Hosting Couple           |        364097 |       1390374 |      1 |         3 |      120 |     28 | 5024545628722 |         |             0 |      -1 | 2014-07-05 20:00:55.177257+00
+  846181 | 3894bda4-8fd4-4afe-9881-c4df48981d4e | Love's Still Changing Hearts |         47564 |        968480 |      1 |           |      120 |     28 |               |         |             0 |      -1 | 2010-06-21 03:23:24.127528+00
+(10 rows)
+
+
+ id |     name     | parent | child_order | description |                 gid
+----+--------------+--------+-------------+-------------+--------------------------------------
+  1 | Release name |        |           0 |             | df187855-059b-3514-9d5e-d240de0b4228
+  2 | Search hint  |        |           0 |             | 02939c89-0e48-3357-bf41-bf8e4162c874
+(2 rows)
+
+
+  id  | release |                              name                               | locale | edits_pending |         last_updated          | type |                               sort_name                                | begin_date_year | begin_date_month | begin_date_day | end_date_year | end_date_month | end_date_day | primary_for_locale | ended
+------+---------+-----------------------------------------------------------------+--------+---------------+-------------------------------+------+------------------------------------------------------------------------+-----------------+------------------+----------------+---------------+----------------+--------------+--------------------+-------
+ 3169 | 1740817 | The Legend of Zelda: Twilight Princess HD S+¬lection musicale    | fr     |             0 | 2016-03-11 12:00:17.881574+00 |    1 | The Legend of Zelda: Twilight Princess HD S+¬lection musicale           |                 |                  |                |               |                |              | f                  | f
+ 4371 | 1466581 | pâæpâ¦pâäpéípâ+pâëpâ¬pé¦pâ+pâ¦ pâäpâ¦péípéñ                                   | ja     |             0 | 2016-07-30 06:24:15.079766+00 |    1 | pâæpâ¦pâäpéípâ+pâëpâ¬pé¦pâ+pâ¦2                                                  |                 |                  |                |               |                |              | t                  | f
+ 3692 | 1556904 | Would You Stay For Tea?                                         | en     |             0 | 2016-05-08 21:02:50.269087+00 |    1 | Would You Stay For Tea?                                                |                 |                  |                |               |                |              | t                  | f
+ 4372 |  823557 | pâçpéñpâêpâèUSApé¦pâ+pé¡pââpâêpé¿pâçpéúpé+pâºpâ¦pâ+pé¬pâ¬pé+pâèpâ½pâ+pé¦péªpâ¦pâëpâêpâ¬pââpé» | ja     |             0 | 2016-07-30 07:53:58.973615+00 |    1 | pâçpéñpâêpâèpâªpâ+pé¿pé¦pé¿pâ+1pé¦pâ+pé¡pââpâêpé¿pâçpéúpé+pâºpâ¦ pé¬pâ¬pé+pâèpâ½pé¦péªpâ¦pâëpâêpâ¬pââpé» |                 |                  |                |               |                |              | t                  | f
+ 1318 | 1189206 | Spin (Bonus Disc)                                               |        |             0 | 2015-10-05 23:00:57.257507+00 |      | Spin (Bonus Disc)                                                      |                 |                  |                |               |                |              | f                  | f
+ 6483 | 1472634 | The Essential Mozart                                            |        |             0 | 2017-02-15 19:01:33.189645+00 |      | The Essential Mozart                                                   |                 |                  |                |               |                |              | f                  | f
+ 2084 |  347416 | Glasgow Underground, Volume 2 (bonus disc)                      |        |             0 | 2015-11-19 05:02:06.5129+00   |      | Glasgow Underground, Volume 2 (bonus disc)                             |                 |                  |                |               |                |              | f                  | f
+ 2306 | 1699845 | Carlos Argentino Sings                                          | en_US  |             0 | 2015-12-17 20:00:39.379508+00 |    1 | Carlos Argentino Sings                                                 |                 |                  |                |               |                |              | f                  | f
+ 6489 | 1907896 | My Misery                                                       |        |             0 | 2017-02-17 03:00:15.163513+00 |      | My Misery                                                              |                 |                  |                |               |                |              | f                  | f
+   94 | 1260563 | PARTY PEOPLE                                                    |        |             0 | 2015-05-29 14:02:50.990887+00 |      | PARTY PEOPLE                                                           |                 |                  |                |               |                |              | f                  | f
+(10 rows)
+
+
+
+ id |      name       | parent | child_order |                        description                         |                 gid
+----+-----------------+--------+-------------+------------------------------------------------------------+--------------------------------------
+ 13 | Discbox Slider  |        |           0 |                                                            | 21179778-2f98-3d11-816e-42b469a0c924
+  2 | Slim Jewel Case |        |           0 | A thinner jewel case, commonly used for CD singles.        | 36327bc2-f691-3d66-80e5-bd03cec6060a
+ 11 | Snap Case       |        |           0 |                                                            | 935f2847-8083-3422-8f0d-d7516fcda682
+ 12 | Gatefold Cover  |        |           0 |                                                            | e724a489-a7e8-30a1-a17c-30dfd6831202
+  7 | None            |        |           2 |                                                            | 119eba76-b343-3e02-a292-f0f00644bb9b
+  3 | Digipak         |        |           0 |                                                            | 8f931351-d2e2-310f-afc6-37b89ddba246
+ 17 | Digibook        |        |           0 | A perfect bound book with a sleeve at the end to hold a CD | 9f2e13bc-f84f-428a-8342-fd86ece7fc4d
+  8 | Cassette Case   |        |           0 |                                                            | c70b737a-0114-39a9-88f7-82843e54f906
+ 16 | Super Jewel Box |        |           0 |                                                            | dfb7da53-866f-4dfd-a016-80bafaeff3db
+  5 | Other           |        |           1 |                                                            | 815b7785-8284-3926-8f04-e48bc6c4d102
+(10 rows)
+
+
+ id |      name      | parent | child_order |                                                                                               description                                                                                               |                 gid
+----+----------------+--------+-------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------
+  2 | Promotion      |        |           2 | A give-away release or a release intended to promote an upcoming official release (e.g. pre-release versions, releases included with a magazine, versions supplied to radio DJs for air-play).          | 518ffc83-5cde-34df-8627-81bff5093d92
+  4 | Pseudo-Release |        |           4 | An alternate version of a release where the titles have been changed. These don't correspond to any real release and should be linked to the original release using the transl(iter)ation relationship. | 41121bb9-3413-3818-8a9a-9742318349aa
+  3 | Bootleg        |        |           3 | An unofficial/underground release that was not sanctioned by the artist and/or the record company. This includes unofficial live recordings and pirated releases.                                       | 1156806e-d06a-38bd-83f0-cf2284a808b9
+  1 | Official       |        |           1 | Any release officially sanctioned by the artist and/or their record company. Most releases will fit into this category.                                                                                 | 4e304316-386d-3409-af2e-78857eec5cfe
+(4 rows)
+
+
+ id | gid | name | artist_credit | type | comment | edits_pending | last_updated
+----+-----+------+---------------+------+---------+---------------+--------------
+(0 rows)
+
+
+ id |        name        | parent | child_order | description |                 gid
+----+--------------------+--------+-------------+-------------+--------------------------------------
+  2 | Search hint        |        |           0 |             | abc2db8a-7386-354d-82f4-252c0213cbe4
+  1 | Release group name |        |           0 |             | 156e24ca-8746-3cfc-99ae-0a867c765c67
+(2 rows)
+
+
+  id  | release_group |                               name                               | locale | edits_pending |         last_updated          | type |                            sort_name                             | begin_date_year | begin_date_month | begin_date_day | end_date_year | end_date_month | end_date_day | primary_for_locale | ended
+------+---------------+------------------------------------------------------------------+--------+---------------+-------------------------------+------+------------------------------------------------------------------+-----------------+------------------+----------------+---------------+----------------+--------------+--------------------+-------
+ 1358 |        205139 | Live In Boston - Volume Two - Remastered                         |        |             0 | 2015-10-09 05:01:47.623344+00 |      | Live In Boston - Volume Two - Remastered                         |                 |                  |                |               |                |              | f                  | f
+ 3089 |        835116 | beacons of ancestorship                                          |        |             0 | 2016-03-23 03:00:33.098047+00 |      | beacons of ancestorship                                          |                 |                  |                |               |                |              | f                  | f
+ 6076 |       1772497 | The Famous Five: Five on a Treasure Island                       |        |             0 | 2017-02-26 16:10:29.024092+00 |    1 | Famous Five, The: Five on a Treasure Island                      |                 |                  |                |               |                |              | f                  | f
+ 3827 |         88442 | Best Of: Snap! Attack                                            |        |             0 | 2016-06-21 14:00:46.43053+00  |      | Best Of: Snap! Attack                                            |                 |                  |                |               |                |              | f                  | f
+ 5138 |       1739746 | pâ¡pâƒpé¬pü¿pé+pâÑpâ¬pé¿pââpâêpÇ£pé+péºpéñpé»pé¦pâöpéópü«pé»pâ¬pé+pââpé»                 | ja     |             0 | 2016-12-21 02:30:50.867831+00 |    1 | pâ¡pâƒpé¬pü¿pé+pâÑpâ¬pé¿pââpâêpÇ£pé+péºpéñpé»pé¦pâöpéópü«pé»pâ¬pé+pââpé»                 |                 |                  |                |               |                |              | f                  | f
+  561 |         21341 | Shaking The Tree: 16 Golden Greats                               |        |             0 | 2015-07-21 16:02:26.204922+00 |      | Shaking The Tree: 16 Golden Greats                               |                 |                  |                |               |                |              | f                  | f
+ 3623 |        203663 | Niandra LaDes And Usually Just A T-Shirt                         |        |             0 | 2016-05-26 16:00:31.253744+00 |      | Niandra LaDes And Usually Just A T-Shirt                         |                 |                  |                |               |                |              | f                  | f
+  684 |       1553184 | T+íssia Reis - EP                                                 |        |             0 | 2015-08-05 04:01:43.993669+00 |      | T+íssia Reis - EP                                                 |                 |                  |                |               |                |              | f                  | f
+ 6069 |       1734298 | K.A.R.D Project Vol.1 "Oh NaNa"                                  |        |             0 | 2017-02-24 21:00:27.250268+00 |      | K.A.R.D Project Vol.1 "Oh NaNa"                                  |                 |                  |                |               |                |              | f                  | f
+ 5610 |        343637 | 1980-05-24: Boot the Beats: The Ahoy, Rotterdam, The Netherlands |        |             0 | 2017-02-03 21:00:34.820321+00 |      | 1980-05-24: Boot the Beats: The Ahoy, Rotterdam, The Netherlands |                 |                  |                |               |                |              | f                  | f
+(10 rows)
+
+
+ id |   name    | parent | child_order | description |                 gid
+----+-----------+--------+-------------+-------------+--------------------------------------
+  2 | Single    |        |           2 |             | d6038452-8ee0-3f68-affc-2de9a1ede0b9
+ 11 | Other     |        |          99 |             | 4fc3be2b-de1e-396b-a933-beb8f1607a22
+ 12 | Broadcast |        |           4 |             | 3b2e49e1-2875-37b8-9fa9-1f7cf3f49900
+  3 | EP        |        |           3 |             | 6d0c5bf6-7a33-3420-a519-44fc63eedebf
+  1 | Album     |        |           1 |             | f529b476-6e62-324f-b0aa-1f3e33d313fc
+(5 rows)
+
+
+ id |      name      | parent | child_order | description |                 gid
+----+----------------+--------+-------------+-------------+--------------------------------------
+  4 | Interview      |        |           0 |             | 12af3f5e-ce2a-3941-8b93-d482884031e5
+  3 | Spokenword     |        |           0 |             | 66b8a13e-43ff-3ac0-ac6c-73659d3817c6
+  7 | Remix          |        |           0 |             | 0c60f497-ff81-3818-befd-abfc84a4858b
+  2 | Soundtrack     |        |           0 |             | 22a628ad-c082-3c4f-b1b6-d41665107b88
+  6 | Live           |        |           0 |             | 6fd474e2-6b58-3102-9d17-d6f7eb7da0a0
+  8 | DJ-mix         |        |           0 |             | 0d47f47a-3fe5-3d69-ac9d-d566c23968bf
+  1 | Compilation    |        |           0 |             | dd2a21e1-0c00-3729-a7a0-de60b84eb5d1
+  5 | Audiobook      |        |           0 |             | 499a387e-6195-333e-91c0-9592bfec535e
+ 10 | Demo           |        |           0 |             | 81598169-0d6c-3bce-b4be-866fa658eda3
+  9 | Mixtape/Street |        |           0 |             | 15c1b1f5-d893-3375-a1db-e180c5ae15ed
+(10 rows)

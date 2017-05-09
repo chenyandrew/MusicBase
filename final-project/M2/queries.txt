@@ -1,0 +1,12 @@
+Queries:
+
+1) Which artist/group produced the most number of "Album" releases? (Aggregate, group by where filter) -entire dataset
+2) Most common artist name in the music industry? (Aggregate, group by, order by) -entire dataset
+3) Average group size of artists? (Average aggregate) -musicbrainz dataset
+4) Most common medium of music in 2015. (count, inner join, group by, order by) -discogs
+5) Artist that made the biggest contributions/involved in more albums? (aggregate, groupby, having) -entire dataset
+6) What area has the most artists? (count, right outer, order by) - entire dataset
+7) Most common type of artist. (count, right outer join) -musicbrainz dataset
+8) What genres are most popular in the year 2013? (count, join, left outer join, having, group by, order by) -entire dataset
+9) What is the biggest group of musicians? (max, join) -musicbrainz dataset
+10) What language is the most common in the industry on music? (count, full join) - entire dataset

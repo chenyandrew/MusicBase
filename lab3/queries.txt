@@ -1,0 +1,10 @@
+1)	How many episodes are in a season?
+2)	Get average cast size of movies in x year.
+3)	Most common last name among actors?
+4)	How many times does an actor participate in a movie or series?
+5)  Which actors participate in both series or movies (limit 100)?
+6)  Number of movies that appear in a given year.
+7)  Which year is x genre most popular?
+8)  Average number of episodes per season?
+9)  Average number of keywords used for movies?
+10) Actors that have appeared the most (10). 
